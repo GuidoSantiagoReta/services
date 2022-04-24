@@ -807,22 +807,24 @@ ul {
     
     .nav__ul{
         position:absolute;
-        right: 0px;
+        
         height:15vh;
         background-color:linear-gradient( 190deg, var(--color-n3) 0%, var(--color-n3-5) 20%, var(--color-n1) 50% );
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
         align-items: center;
-        width: 50%;
+        width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         margin-top: 20vw;
-
+        margin-right: 2vw ;
+        margin-left: -4vw;
     }
   /**/
     .nav__li a {
         
-        font-size: 10px;
+        font-size: 6px;
+        color: #0c0452;
        
     }
    
