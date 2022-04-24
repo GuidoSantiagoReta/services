@@ -1,0 +1,68 @@
+/* -------------------- inicio HEADER -------------------- */
+.header {
+    margin-bottom: 10rem;
+}
+
+/* -------------------- fin HEADER -------------------- */
+/* -------------------- inicio PRIMERA SECCION (SERVICIOS)-------------------- */
+
+.container-servicios {
+    flex-direction: row;
+}
+
+.offer {
+    width: 50%;
+}
+
+.service-sm-icon {
+    width: 6rem;
+    height: 5rem;
+}
+
+/* -------------------- fin PRIMERA SECCION -------------------- */
+
+/* -------------------- inicio SEGUNDA SECCION (NOSOTROS) -------------------- */
+
+.nosotros-contenido {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nosotros-contenido__carta {
+    width: 30%;
+    max-width: 20rem;
+}
+
+/* -------------------- fin SEGUNDA SECCION -------------------- */
+
+/* -------------------- inicio TERCERA SECCION (PORTFOLIO)-------------------- */
+
+/* mediaquery para el icono de cierre responsive a la derecha*/
+.galeria {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.close {
+    top: 40px;
+    right: 40px;
+}
+
+/* -------------------- fin TERCERA SECCION -------------------- */
+
+/* -------------------- inicio FOOTER -------------------- */
+
+.footer-contenido {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-col-2 {
+    order: 0;
+}
+
+.footer-col-1,
+.footer-col-3 {
+    width: 25%;
+    max-width: 15rem;
+}
+
+/* -------------------- fin FOOTER -------------------- */

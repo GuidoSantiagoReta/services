@@ -1,0 +1,29 @@
+html {
+    font-size: 1.1rem;
+}
+
+/* =======================inicio CABECERA Y NAV ======================= */
+
+.nav__ul {
+    display: flex; /* <------ DISPLAY:NONE (NAV) ---*/
+}
+
+/* ======================= fin CABECERA Y NAV ======================= */
+
+/* -------------------- inicio QUINTA SECCION -------------------- */
+
+.contacto-contenido {
+    padding-top: 1.5rem;
+}
+
+/* -------------------- fin QUINTA SECCION -------------------- */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, (minmax 200px, 2fr));
+    width: 60%;
+    margin: auto;
+    font-size: 0;
+    overflow: hidden;
+    grid-gap: 0.3rem; /* propiedad de espaciado entre las imagenes*/
+    padding: 2.5rem 0;
+}

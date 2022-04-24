@@ -1,0 +1,49 @@
+/* =======================inicio CABECERA Y NAV ======================= */
+
+.header {
+    min-height: 650px;
+}
+
+/* ======================= fin CABECERA Y NAV ======================= */
+
+/* ======================= inicio PRIMERA SECCION (SERVICIOS) ======================= */
+
+.container-servicios {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* ======================= fin PRIMERA SECCION  ======================= */
+
+/* -------------------- inicio CUARTA SECCION -------------------- */
+
+.contenedor-precios {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* -------------------- fin CUARTA SECCION -------------------- */
+
+/* -------------------- inicio QUINTA SECCION -------------------- */
+
+/* html {
+    font-size: 0.85rem;
+} */
+
+.contacto-contenido {
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.contacto-col-1 {
+    order: 2;
+}
+.contacto-col-2 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* -------------------- fin QUINTA SECCION -------------------- */
