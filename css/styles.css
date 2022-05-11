@@ -805,41 +805,49 @@ ul {
       overflow-x: hidden;
     }
     .main-logo{
-        min-width: 70px;
+        min-width: 100px;
+    }
+    .main-subtitle {
+        margin-right: 50rem;
+        font-size: calc(0.9rem + 0.9vw);
+        color: white;
+        font-weight: 400;
+        animation: anim-header 1s cubic-bezier(0.5, 0.1, 0.7, 0.5) 1.25s both;
     }
     
     .nav__ul{
+
         position:absolute;
-        
-        height:15vh;
-        background-color:linear-gradient( 190deg, var(--color-n3) 0%, var(--color-n3-5) 20%, var(--color-n1) 50% );
+        right: 0px;
+        height:100vh;
+        padding-top:320px; 
+        background-color: var(--color-n1);
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
         align-items: center;
-        width: 100%;
+        width: 50%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        margin-top: 20vw;
-        margin-right: 2vw ;
-        margin-left: -4vw;
+        z-index: 21 ;
         
     }
   /**/
     .nav__li a {
         
-        font-size: 6px;
-        color: #0c0452;
+        font-size: 11px;
+        color: #ffffff;
+        margin-left: 20px;
+   
         
     }
    
- 
-
-
 
 
 
    .burger{
        display:block;
+       margin-left: 200px;
+       margin-bottom: 50px;
+       z-index: 21 ;
    }
 }
 
