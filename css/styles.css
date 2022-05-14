@@ -220,6 +220,12 @@ ul {
 
 /* ======================= fin PRIMERA SECCION ======================= */
 
+
+/*GIF PRUEBA*/
+
+
+
+
 /* ======================= inicio SEGUNDA SECCION (NOSOTROS) ======================= */
 
 .segunda-seccion {
@@ -787,6 +793,7 @@ ul {
     background-color: rgb(226, 226, 226);
     margin:5px;
     transition: all 0.3 ease;
+    margin-right: 15px;
 }
 .nav-active{
     transform: translateX(0%);
@@ -806,6 +813,7 @@ ul {
     }
     .main-logo{
         min-width: 100px;
+      
     }
     .main-subtitle {
         margin-right: 50rem;
