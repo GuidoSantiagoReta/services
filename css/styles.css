@@ -786,6 +786,7 @@ ul {
 .burger{
     display: none;
     cursor:pointer;
+    margin-top: 12px;
 }
 .burger div{
     width: 25px;
