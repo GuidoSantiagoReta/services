@@ -834,7 +834,7 @@ ul {
         display: flex;
         flex-direction:column;
         align-items: center;
-        width: 100%;
+        width: 150%;
         transform: translateX(100%);
         z-index: 21 ;
         
