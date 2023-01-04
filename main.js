@@ -12,7 +12,7 @@ const  navSlide = () => {
           if(link.style.animation){
             link.style.animation = '';
           } else{
-            link.style.animation = `navLinkFade 0.2s ease forwards ${index / 7 + 0}s`;
+            link.style.animation = `navLinkFade 0.6s ease forwards ${index / 7 + 0}s`;
         }
       });
       //Buerger Animation
